@@ -1,0 +1,31 @@
+package com.circleex;
+
+public class MonthSchedule {
+
+	public MonthSchedule() {
+		
+	}
+	
+	private void input() {
+		
+	}
+	
+	private void veiw() {
+		
+	}
+	
+	private void finish() {
+		
+	}
+	
+	public void run() {
+		System.out.println("잠시 후 계속 됩니다...");
+	}
+
+	public static void main(String[] args) {
+		
+		MonthSchedule m = new MonthSchedule();
+		m.run();
+	}
+
+}

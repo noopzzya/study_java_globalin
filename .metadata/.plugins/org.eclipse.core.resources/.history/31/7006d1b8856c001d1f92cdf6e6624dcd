@@ -1,0 +1,43 @@
+package com.circleex;
+
+import java.util.*;
+public class MonthSchedule {
+	
+	private Scanner sc = new Scanner(System.in);
+	private int nDays;
+	private Day[] days; // Day 객체 배열
+	
+	
+	
+public MonthSchedule(int nDays) {
+	this.nDays = nDays;
+	this.days = new Day[nDays];
+	for(int i=0; i<days.length; i++) {
+		days[i] = new Day();
+	}
+	
+}
+
+private void input() {
+	
+}
+
+private void veiw() {
+	
+}
+
+private void finish() {
+	
+}
+	
+	public void run() {
+		System.out.println("잠시 후 계속 됩니다.");
+	}
+
+	public static void main(String[] args) {
+		
+		MonthSchedule m = new MonthSchedule(30);
+		m.run();
+	}
+
+}

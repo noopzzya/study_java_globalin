@@ -1,0 +1,16 @@
+package com.globalin;
+
+import java.util.*;
+public class Concert {
+
+	private String hallName;
+	private Group[] group = new Group[3];
+	private Scanner sc = new Scanner(System.in);
+	
+	public Concert(String hallName) {
+		this.hallName = hallName;
+		group[1] = new Group('S', 10);
+		group[2] = new Group('S', 10);
+	}
+	
+}

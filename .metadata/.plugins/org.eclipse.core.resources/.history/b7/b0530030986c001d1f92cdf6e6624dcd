@@ -1,0 +1,33 @@
+package com.globalin;
+
+import java.util.*;
+public class Group {
+
+	private char type; // S, A, B
+	private Seat[] seats; // 현재 등급의 좌석 객체 배열
+	private Scanner sc = new Scanner(System.in);
+	
+	public Group(char type, int num) { // 생성자
+		this.type = type;
+		seats  = new Seat[num];
+		
+		for(int i=0; i<seats.length; i++)
+			seats[i] = new Seat();
+	}
+	
+	// 좌석 예약
+	public boolean reserve() {
+		return;
+	}
+	
+	// 좌석 예약 취소
+	public boolean cancel() {
+		return false;
+	}
+	
+	// 좌석 출력
+	public void show() {
+		
+	}
+	
+}
