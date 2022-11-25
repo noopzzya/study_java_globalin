@@ -9,5 +9,5 @@ public class MainEx{
 	public void write() {
 		System.out.println("SuperEx write() 메소드:" +a+ ":" +b+ ":" +c);
 	}
-	//test
+	
 }
