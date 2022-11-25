@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.classexam.HapEx.java&apos; to &apos;Hap.java&apos;&#x0D;&#x0A;- Original project: &apos;Day11&apos;&#x0D;&#x0A;- Original element: &apos;com.classexam.HapEx.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.classexam.Hap.java&apos;" description="Rename compilation unit &apos;HapEx.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.classexam{HapEx.java" name="Hap.java" references="false" stamp="1668757720082" version="1.0"/>
+</session>

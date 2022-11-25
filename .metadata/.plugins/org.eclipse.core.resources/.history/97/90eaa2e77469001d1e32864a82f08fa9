@@ -1,0 +1,35 @@
+package com.methodex;
+
+public class MyClass {
+	
+	private String name;
+	private int age;
+	
+	
+	public MyClass() {
+		name="무명";
+	}
+	
+	public MyClass(String n) {
+		name=n;
+	}
+	
+	public MyClass(String n, int a) {
+		name=n;
+		age = a;
+	}
+	
+	public MyClass(int a, String n) {
+		age = a;
+		name=n;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	
+	
+}

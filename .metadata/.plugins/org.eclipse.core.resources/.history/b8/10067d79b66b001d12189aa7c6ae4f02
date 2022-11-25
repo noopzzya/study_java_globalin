@@ -1,0 +1,15 @@
+package com.inher;
+
+public class SuperMain {
+
+	public static void main(String[] args) {
+
+		SuperEx01 se = new SuperEx01();
+		se.write(); // 자식
+		se.print(); // 부모
+		
+		System.out.println(se.b);
+		
+	}
+
+}

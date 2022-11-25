@@ -1,0 +1,6 @@
+package com.inher;
+
+public class BClass extends AClass{
+
+		
+}

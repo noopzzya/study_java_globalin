@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="exam.ScanEx01"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.classex01.Car"/>
+    <fullyQualifiedTypeName name="com.classex.ClassEx01"/>
+    <fullyQualifiedTypeName name="com.methodex.OverloadingEx02"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="com.methodex.ThisEx"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="java.net.Inet4Address"/>
+    <fullyQualifiedTypeName name="com.methodex.StaticEx"/>
+    <fullyQualifiedTypeName name="com.banking.Account"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.inher.BClass"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.inher.PointEx"/>
+    <fullyQualifiedTypeName name="com.inher.ParentEx"/>
+    <fullyQualifiedTypeName name="com.inher.Dog"/>
+    <fullyQualifiedTypeName name="com.inher.Animal"/>
+    <fullyQualifiedTypeName name="com.objectex.Tv"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.objectex.Grade"/>
+    <fullyQualifiedTypeName name="java.lang.Readable"/>
+    <fullyQualifiedTypeName name="com.objectex.Rectangle"/>
+</qualifiedTypeNameHistroy>

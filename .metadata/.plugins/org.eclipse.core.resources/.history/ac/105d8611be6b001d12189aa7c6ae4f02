@@ -1,0 +1,10 @@
+package com.inher;
+
+public class Dog {
+	
+	private String name;
+	
+	public Dog() {
+		
+	}
+}

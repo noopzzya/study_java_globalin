@@ -1,0 +1,11 @@
+package study;
+
+
+public class Sungjuk { 
+	
+	String name;
+	
+	int kor, eng, mat, tot=0, rank=1;
+	double avg;
+	
+}

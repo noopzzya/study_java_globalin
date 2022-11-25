@@ -1,0 +1,11 @@
+package com.methodex;
+
+public class ThisMain {
+
+	public static void main(String[] args) {
+		
+		ThisEx te = new  ThisEx();
+		System.out.println(te);
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.classexam;
+
+public class RectEx {
+
+	public static void main(String[] args) {
+		
+		Rect r; // 객체선언(참조변수)
+		r = new Rect(); // 객체생성
+		//Rect r = new Rect(); 객체선언과 생성 한 번에 가능
+		
+		r.input(); //메소드 호출
+		
+		
+	}
+
+}

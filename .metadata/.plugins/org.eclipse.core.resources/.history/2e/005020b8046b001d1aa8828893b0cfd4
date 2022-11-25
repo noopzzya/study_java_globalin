@@ -1,0 +1,16 @@
+package com.inher;
+
+import java.io.*;
+public class CalcEx01 {
+
+	public static void main(String[] args) throws IOException {
+		
+		BClass bc = new BClass();
+		
+		if(!bc.input()) {
+			
+		}
+
+	}
+
+}

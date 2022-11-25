@@ -1,0 +1,18 @@
+package com.objectex;
+
+/*
+ * 문]
+ * 
+ * 필드 : int 타입의 x , y, width, height 필드로 구성
+ * 
+ * 
+ */
+
+public class Rectangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

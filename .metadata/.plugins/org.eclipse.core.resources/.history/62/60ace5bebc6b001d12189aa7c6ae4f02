@@ -1,0 +1,11 @@
+package com.inher;
+
+public class SonEx extends ParentEx{
+	
+	int foo = 7;
+
+	public int getNumber(int a) {
+		return a+2;
+	}
+	
+}

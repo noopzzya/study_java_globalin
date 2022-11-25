@@ -1,0 +1,16 @@
+package com.inher;
+
+public class PointEx {
+	
+	private int x;
+	private int y;
+	
+	public PointEx() {} // 기본생성자	
+	public PointEx(int x) {
+		this.x = x;
+	}
+	public PointEx(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+}

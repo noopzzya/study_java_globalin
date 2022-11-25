@@ -1,0 +1,17 @@
+package study;
+
+import java.io.*;
+public class Sungjuk { 
+	
+	public int aaa() throws IOException{
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		
+	}
+
+	
+
+	
+	
+}

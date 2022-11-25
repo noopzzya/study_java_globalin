@@ -1,0 +1,15 @@
+package com.classexam;
+
+public class HapEx {
+
+	public static void main(String[] args) {
+		// 객체 생성
+		Hap hap = new Hap();
+		
+		// 입력 메소드 호출
+		
+		// 계산 메소드 호출
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.classexam;
+
+public class Circle {
+	
+	// 원의 반지름
+	public int radius; // public은 필드 앞에 사용가능(생략가능)
+	
+	// 원의 이름
+	public String name;
+	
+	// 생성자 함수(메소드)
+	public Circle() {}
+	
+	// 원의 면적을 구하는 메소드 정의
+	public double getArea() {
+		return 3.14*radius*radius;
+	}
+}

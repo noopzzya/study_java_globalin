@@ -1,0 +1,48 @@
+package study;
+
+import java.io.*;
+import java.nio.Buffer;
+public class Sungjuk { 
+	
+	public int aaa() throws IOException{
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("첫번재 수");
+		int a = Integer.parseInt(br.readLine());
+		
+		System.out.println("두번재 수");
+		int b = Integer.parseInt(br.readLine());
+		
+		if(a>b) {
+			return a;
+		}
+		return b;
+	}
+
+	public void bbb() throws IOException{
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("첫번재 수");
+		int a = Integer.parseInt(br.readLine());
+		
+		System.out.println("두번재 수");
+		int b = Integer.parseInt(br.readLine());
+		
+		int sum = 0;
+		
+		if(a>b) {
+			a=a^b;
+			b=b^a;
+			a=a^b;
+		}
+		for(int i; i<=b; i++) {
+			sum +=i;
+		}
+		System.out.println(a+ "~" +b+ "사이의 합계:" +sum);
+	}
+
+	
+	
+}

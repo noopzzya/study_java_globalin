@@ -1,0 +1,18 @@
+package com.inher;
+
+public class BClass extends AClass{
+
+	// 데이터 입력 기능(메소드)
+	boolean input() {
+		
+	}
+	
+	
+	// 연산 및 처리기능(메소드)
+	double calc() {
+		
+	}
+	
+	
+	//
+}
