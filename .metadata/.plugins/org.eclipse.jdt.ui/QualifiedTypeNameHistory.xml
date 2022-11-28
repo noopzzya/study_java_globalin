@@ -23,9 +23,16 @@
     <fullyQualifiedTypeName name="com.inher.Dog"/>
     <fullyQualifiedTypeName name="com.inher.Animal"/>
     <fullyQualifiedTypeName name="com.objectex.Tv"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.objectex.Grade"/>
     <fullyQualifiedTypeName name="java.lang.Readable"/>
     <fullyQualifiedTypeName name="com.objectex.Rectangle"/>
+    <fullyQualifiedTypeName name="com.circleex.Circle"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.globalin.Concert"/>
+    <fullyQualifiedTypeName name="com.absex.Diagram"/>
+    <fullyQualifiedTypeName name="com.absex.InterEx"/>
+    <fullyQualifiedTypeName name="com.absex.InterFaceEx"/>
+    <fullyQualifiedTypeName name="com.absex.Inter1"/>
+    <fullyQualifiedTypeName name="com.absex.Inter2"/>
 </qualifiedTypeNameHistroy>
