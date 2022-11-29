@@ -20,6 +20,4 @@ public class Dropship extends Unit{
 		
 	}
 	
-	
-
 }
