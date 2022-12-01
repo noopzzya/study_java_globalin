@@ -6,13 +6,26 @@ public class Test2 {
 		
 		int [][] arr = new int[4][5];
 		int n = 1;
-		
+		/*
 		for(int i=0; i<arr.length; i++) {
 			for(int j=0; j<arr[i].length; j++) {
 				arr[i][j] = n;
 				n++;
 			}
 		}
+		*/
+		
+		for(int i = 0; i < arr.length;i++){
+			if(i % 2== 0) {
+		        for(int j = 0; j < arr[i].length; j++){
+				arr[i][j]=n++;
+			    } 
+			}else {
+				for(int j = (arr[i].length-1); j >=0 ; j--){
+					arr[i][j]=n++;
+				}
+			}			
+		}		
 		
 		for(int i=0; i<arr.length; i++) {
 			for(int j=0; j<arr[i].length; j++) {

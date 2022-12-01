@@ -12,8 +12,7 @@ public class DictionApp {
 		System.out.println("나길동의 값은 " +dic.get("나길동"));
 		System.out.println("가길동의 값은 " +dic.get("가길동"));
 		dic.delete("가길동");
-		System.out.println("가길동의 값은 " +dic.get("가길동"));
-		
+		System.out.println("가길동의 값은 " +dic.get("가길동"));		
 	}
 
 }
