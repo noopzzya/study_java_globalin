@@ -28,7 +28,6 @@ public class EnumEx01 {
 		case Blue:
 			System.out.println("Blue");
 		break;
-
 		}
 	}
 

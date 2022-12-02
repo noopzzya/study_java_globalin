@@ -7,8 +7,7 @@ public class EnumEx03 {
 		System.out.println("서울 인구 :" +City.SEOUL.getIngu());
 		
 		for(City c : City.values())
-			System.out.printf("%s(%s) : %d%n", c, c.getCityName(), c.getIngu());
-			
+			System.out.printf("%s(%s) : %d%n", c, c.getCityName(), c.getIngu());			
 	}
 
 }
