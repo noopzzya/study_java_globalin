@@ -1,8 +1,0 @@
-package com.inher;
-
-public class SonEx extends ParentEx{
-	
-	int foo = 7;
-
-	
-}
