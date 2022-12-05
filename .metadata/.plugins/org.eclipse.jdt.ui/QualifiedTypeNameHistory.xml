@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="exam.ScanEx01"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -16,7 +15,6 @@
     <fullyQualifiedTypeName name="com.inher.BClass"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.inher.PointEx"/>
     <fullyQualifiedTypeName name="com.inher.ParentEx"/>
     <fullyQualifiedTypeName name="com.inher.Dog"/>
@@ -50,6 +48,16 @@
     <fullyQualifiedTypeName name="com.enumex.InnerOuterTest.InnerNested"/>
     <fullyQualifiedTypeName name="java.util.spi.LocaleNameProvider"/>
     <fullyQualifiedTypeName name="com.enumex.LocalTest"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.enumex.StudentVO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.gene.Fruit"/>
+    <fullyQualifiedTypeName name="com.gene.Apple"/>
+    <fullyQualifiedTypeName name="com.collec.QueueEx"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="com.collec.VectorEx"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="com.collec.MyVector"/>
 </qualifiedTypeNameHistroy>
