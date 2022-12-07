@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Void"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="com.classex01.Car"/>
-    <fullyQualifiedTypeName name="com.classex.ClassEx01"/>
-    <fullyQualifiedTypeName name="com.methodex.OverloadingEx02"/>
-    <fullyQualifiedTypeName name="java.nio.Buffer"/>
-    <fullyQualifiedTypeName name="com.methodex.ThisEx"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="java.net.Inet4Address"/>
     <fullyQualifiedTypeName name="com.methodex.StaticEx"/>
     <fullyQualifiedTypeName name="com.banking.Account"/>
@@ -32,12 +23,9 @@
     <fullyQualifiedTypeName name="com.absex.Inter2"/>
     <fullyQualifiedTypeName name="com.gameex.Marine"/>
     <fullyQualifiedTypeName name="com.gameex.StringStack"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
     <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="com.exec.ExceptionEx05"/>
     <fullyQualifiedTypeName name="com.enumex.Operation"/>
@@ -49,15 +37,27 @@
     <fullyQualifiedTypeName name="java.util.spi.LocaleNameProvider"/>
     <fullyQualifiedTypeName name="com.enumex.LocalTest"/>
     <fullyQualifiedTypeName name="com.enumex.StudentVO"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.gene.Fruit"/>
     <fullyQualifiedTypeName name="com.gene.Apple"/>
     <fullyQualifiedTypeName name="com.collec.QueueEx"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="com.collec.VectorEx"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="com.collec.MyVector"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.vscore.Score"/>
+    <fullyQualifiedTypeName name="com.vscore.ScoreImpl"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.vscore.ScoreVO"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="com.arraylistex.LinkedListEx"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
