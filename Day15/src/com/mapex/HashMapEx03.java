@@ -7,12 +7,19 @@ public class HashMapEx03 {
 		
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
 		
+		/*
 		map.put("가찬수",  new Integer(90));
 		map.put("다찬수",  new Integer(100));
 		map.put("다찬수",  new Integer(100));
 		map.put("마찬수",  new Integer(90));
 		map.put("나수홍",  new Integer(80));
-
+		*/
+		map.put("가찬수",  90);
+		map.put("다찬수",  100);
+		map.put("다찬수",  100);
+		map.put("마찬수",  90);
+		map.put("나수홍",  0);
+		
 		Set set = map.entrySet();
 		
 		Iterator it = set.iterator();
