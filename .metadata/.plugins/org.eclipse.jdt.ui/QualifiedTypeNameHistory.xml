@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.circleex.Circle"/>
-    <fullyQualifiedTypeName name="com.globalin.Concert"/>
-    <fullyQualifiedTypeName name="com.absex.Diagram"/>
-    <fullyQualifiedTypeName name="com.absex.InterEx"/>
-    <fullyQualifiedTypeName name="com.absex.InterFaceEx"/>
-    <fullyQualifiedTypeName name="com.absex.Inter1"/>
-    <fullyQualifiedTypeName name="com.absex.Inter2"/>
     <fullyQualifiedTypeName name="com.gameex.Marine"/>
     <fullyQualifiedTypeName name="com.gameex.StringStack"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -51,13 +44,20 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="com.hscore.ScoreVO"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="javax.swing.text.IconView"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.ioex.ObjectOutputStreamEx"/>
+    <fullyQualifiedTypeName name="com.ioex.FileOutputStreamEx"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 </qualifiedTypeNameHistroy>
