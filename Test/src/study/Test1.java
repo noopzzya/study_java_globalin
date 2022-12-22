@@ -7,7 +7,6 @@ public class Test1 {
 		/*	 입력 (내 제출)
 		int arr[][] = new int[4][];
 		int n=1;
-		int cnt=4;
 		
 		arr[0] = new int [1];
 		arr[1] = new int [2];
@@ -28,12 +27,7 @@ public class Test1 {
 		int cnt = 4;	//배열의 행크기
 		int[][] arr = new int[cnt][];	//2차원 배열 선언
 		int num = 1;	//숫자 증가값
-		
-		arr[0] = new int[1];
-		arr[1] = new int[2];
-		arr[2] = new int[3];
-		arr[3] = new int[4];
-				
+
 		//행출력
 		for(int i = 0; i < arr.length;i++){
 			//레그드 배열 선언 2차 배열공간이 하나씩 늘어난다.
