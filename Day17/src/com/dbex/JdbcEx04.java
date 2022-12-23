@@ -1,7 +1,6 @@
 package com.dbex;
 
 // SELECT
-
 import java.sql.*;
 public class JdbcEx04 {
 
@@ -52,12 +51,10 @@ public class JdbcEx04 {
 					// 인덱스(1) 또는 문자("college")
 					
 					System.out.println(i+ "\t" +s1+ "\t" +j+ "\t" +s2);
-				}
-				
+				}				
 			
 			// 5단계 쿼리문 실행해서 결과 저장
 			int result = stmt.executeUpdate(sql);
-			System.out.println(result+" 개의 행이 삭제 되었습니다.");
 			
 		}catch (ClassNotFoundException e) {
 			e.printStackTrace();
@@ -84,8 +81,6 @@ public class JdbcEx04 {
 			}
 			
 		}
-
-
 	}
 
 }

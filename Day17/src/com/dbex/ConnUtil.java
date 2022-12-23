@@ -11,7 +11,7 @@ public class ConnUtil {
 			e.printStackTrace();
 		}	
 	}
-	
+	/*
 	public static Connection getConnection() {
 		
 		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
@@ -26,8 +26,9 @@ public class ConnUtil {
 		}
 		return conn;		
 	}
+	*/
 	
-	/* try catch 외 방법
+	//try catch 외 방법
 	public static Connection getConnection() throws SQLException{
 	
 		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
@@ -36,6 +37,5 @@ public class ConnUtil {
 		
 		return DriverManager.getConnection(url, id, password);		
 	}
-	*/
-
+	
 }

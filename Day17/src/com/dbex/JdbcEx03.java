@@ -45,11 +45,8 @@ public class JdbcEx03 {
 				if(stmt != null) stmt.close(); // 6단계
 			} catch (SQLException ss) {
 				ss.printStackTrace();
-			}
-			
+			}			
 		}
-
-
 	}
 
 }

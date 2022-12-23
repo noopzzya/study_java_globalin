@@ -1,7 +1,6 @@
 package com.dbex;
 
 // UPDATE
-
 import java.sql.*;
 public class JdbcEx02 {
 
