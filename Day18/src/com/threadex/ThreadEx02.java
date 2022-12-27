@@ -7,8 +7,7 @@ class ThreadSubEx extends Thread {
 	
 	public ThreadSubEx(String a, String b, int x) {
 		name = a; // 이름
-		lastname = b; // 성
-		
+		lastname = b; // 성9+
 		setPriority(x); // 우선순위 설정
 		setDaemon(true); // 데몬 스레드 
 	}
