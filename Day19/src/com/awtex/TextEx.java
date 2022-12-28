@@ -17,9 +17,7 @@ public class TextEx extends Frame{
 		add("North", tf);
 		add("South", bt);
 		add("Center", ta);
-		add("West", la);
-		
-		
+		add("West", la);		
 		
 		WinEvent w = new WinEvent();
 		setSize(300, 200); // 화면 크기 지정
