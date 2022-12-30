@@ -23,7 +23,10 @@ public class JButtonEx extends JFrame{
 		for(int i=0; i<4; i++) {
 			jb[i] = new JRadioButton(i+1+"번 버튼", icon1);
 			con.add(jb[i]);
-			
+			jb[i].setToolTipText(i+1+ "번째 버튼이다. 눌러..");
+			jb[i].setRolloverIcon(icon2);
+			jb[i].setPressedIcon(icon3);
+			jb[i].setSelectedIcon(icon4);			
 			bg.add(jb[i]);
 		}
 		
