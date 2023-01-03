@@ -16,24 +16,24 @@ public class DBUtil {
 		return(con);
 	}
 	
-	public static void main(String[] args)  {
-
-		Connection con = null;
-		
-		try {
-			con = DBUtil.getConnection();
-			System.out.println("연결");
-					
-		} catch (Exception e) {
-			e.printStackTrace();
-		}finally {
-			try{
-				if(con != null) con.close();
-			}catch(SQLException ss) {
-				ss.printStackTrace();
-			}
-		}
-
-	}
+//	public static void main(String[] args)  { // DB연결 확인
+//
+//		Connection con = null;
+//		
+//		try {
+//			con = DBUtil.getConnection();
+//			System.out.println("연결");
+//					
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}finally {
+//			try{
+//				if(con != null) con.close();
+//			}catch(SQLException ss) {
+//				ss.printStackTrace();
+//			}
+//		}
+//
+//	}
 
 }
