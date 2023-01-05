@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class CalculatorEx extends JFrame implements ActionListener{
 
-	private  JTextField tf = new JTextField();
+	private JTextField tf = new JTextField();
 
 	private JPanel jp = new JPanel();
 	
@@ -57,7 +57,7 @@ public class CalculatorEx extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		
-		String actionCommand = e.getActionCommand();		
+		String actionCommand = e.getActionCommand(); //	
 		tf.setText(tf.getText() + actionCommand);
 		//tf.setText(""); 초기화
 	}
