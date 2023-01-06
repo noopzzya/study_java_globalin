@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class CalculatorEx extends JFrame implements ActionListener{
 
-	private JTextField tf = new JTextField();
+	private JTextField tf = new JTextField("0");
 
 	private JPanel jp = new JPanel();
 	
@@ -38,9 +38,9 @@ public class CalculatorEx extends JFrame implements ActionListener{
 			int[] num = new int[bt.length];
 			try {// parseInt() 메소드가 NumberFormatException 발생하여 예외처리 try catch 사용
 				num[i] = Integer.parseInt(str[i]);
-				bt[i].setForeground(java.awt.Color.blue);
+				bt[i].setForeground(java.awt.Color.blue); // 숫자 형변환 시 블루
 			} catch (NumberFormatException e) {
-				bt[i].setForeground(java.awt.Color.red);
+				bt[i].setForeground(java.awt.Color.red); /// 그외 레드
 			}
 			bt[i].addActionListener(this);
 		}
@@ -57,9 +57,21 @@ public class CalculatorEx extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		
-		String actionCommand = e.getActionCommand(); //	
-		tf.setText(tf.getText() + actionCommand);
-		//tf.setText(""); 초기화
+//		String actionCommand = e.getActionCommand();
+//		tf.setText(tf.getText() + actionCommand);
+
+//		if(tf.getText() == "0") {
+//			tf.setText(tf.getText() + actionCommand); // 초기화
+//		}
+				
+//		tf.setText(tf.getText() + actionCommand);
+		
+		if(tf.getText().equals("0")) {
+			tf.setText(""); // 초기화
+		}else { // 버튼입력
+			tf.setText(tf.getText()+ bt);
+		}
+			
 	}
 
 }
