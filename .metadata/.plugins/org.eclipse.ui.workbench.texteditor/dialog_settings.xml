@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="jframe"/>
 		<list key="findhistory">
+			<item value="jframe"/>
+			<item value="loginPa"/>
 			<item value="inM"/>
 			<item value="conection"/>
 			<item value="conn"/>
