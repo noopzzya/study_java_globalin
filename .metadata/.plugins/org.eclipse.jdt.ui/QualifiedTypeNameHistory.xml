@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.event.ItemEvent"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.project.FindPane"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
@@ -32,7 +31,6 @@
     <fullyQualifiedTypeName name="java.net.UnknownHostException"/>
     <fullyQualifiedTypeName name="com.multiex.MultiClient"/>
     <fullyQualifiedTypeName name="com.multiex.MultiClientThread"/>
-    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="com.multiex.MultiChatClient"/>
     <fullyQualifiedTypeName name="multichatex.MultiChatServer"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="com.multi.MultiChatClient"/>
+    <fullyQualifiedTypeName name="java.awt.Event"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 </qualifiedTypeNameHistroy>

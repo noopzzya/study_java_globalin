@@ -1,10 +1,20 @@
 package study;
 
-public class AccountBookEx {
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class AccountBookEx extends JFrame implements ActionListener{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		new AccountBookEx();
 
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

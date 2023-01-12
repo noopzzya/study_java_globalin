@@ -3,7 +3,6 @@ package study;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
-
 import javax.swing.*;
 
 public class CalculatorEx extends JFrame implements ActionListener{
@@ -43,10 +42,10 @@ public class CalculatorEx extends JFrame implements ActionListener{
 			
 			int[] num = new int[bt.length];
 			try {// parseInt() 메소드가 NumberFormatException 발생하여 예외처리 try catch 사용
-				num[i] = Integer.parseInt(str[i]);
-				bt[i].setForeground(java.awt.Color.blue); // 숫자 형변환 시 블루
+				num[i] = Integer.parseInt(str[i]); // 형변환으로 버튼 색 지정
+				bt[i].setForeground(java.awt.Color.blue);
 			} catch (NumberFormatException e) {
-				bt[i].setForeground(java.awt.Color.red); /// 그외 레드
+				bt[i].setForeground(java.awt.Color.red);
 			}
 			bt[i].addActionListener(this);
 		}
@@ -62,27 +61,43 @@ public class CalculatorEx extends JFrame implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		String operation = e.getActionCommand(); // 버튼인식
+		
+		// 버튼인식
+		String operation = e.getActionCommand(); // getActionCommand : 이벤트 발생한 객체의 문자열 가져옴
 		
 		if(operation.equals("C")) {
 			tf.setText(""); // 초기화
-		} else if(operation.equals("CE")) { // C와 동일, 수정예정
+		} else if(operation.equals("CE")) { // 수정예정
 			tf.setText("");
-		}  else if(operation.equals("←")) { // 백스페이스
+		} else if(operation.equals("←")) { // 백스페이스
 				String back = tf.getText();
 				if(back.length() !=0) {
 					tf.setText(back.substring(0, back.length()-1)); // substring : 문자열 자르기
 				}
-		}else if(operation.equals("=")) { // 계산 한 값이 나오도록
+		} else if(operation.equals("=")) { // 계산 한 값이 나오도록
 			String result = Double.toString(calculate(tf.getText()));
 			tf.setText(""+result);
 			num = "";
-		}else if(operation.equals("+") || operation.equals("-") || 
-					operation.equals("*") || operation.equals("/")) { // 클릭한 버튼이 연산자일 때
+		} else if(operation.equals("sqrt")) { // 루트
+			double root = Math.sqrt(Double.parseDouble(tf.getText()));
+			tf.setText(""+root);
+		} else if(operation.equals("%")) { // 수정예정
+			tf.setText("");
+		} else if(operation.equals("1/x")) { // 역수
+			double num = 1 / Double.parseDouble(tf.getText());
+			tf.setText(""+num);
+		} else if(operation.equals("+/-")) { // 수정예정
+			tf.setText("");
+		} else if(operation.equals(".")) { // 소수점
+			tf.setText(tf.getText()+".");
+		} else if(operation.equals("+") || operation.equals("-") || 
+					operation.equals("*") || operation.equals("/") ||
+					operation.equals("%")) { // 클릭한 버튼이 연산자일 때
 			if(tf.getText().equals("") && operation.equals("-")) { // 첫 값 음수 입력가능
 				tf.setText(tf.getText() + e.getActionCommand());
-			} else if(!tf.getText().equals("") && !prevOperation.equals("+") && !prevOperation.equals("-") 
-						&& !prevOperation.equals("*") && !prevOperation.equals("/")) {
+			} else if(!tf.getText().equals("") && !prevOperation.equals("+") && 
+					!prevOperation.equals("-") && !prevOperation.equals("*") && 
+					!prevOperation.equals("/") && !prevOperation.equals("%")) {
 				tf.setText(tf.getText() + e.getActionCommand());
 			}
 		}else { // 나머지 버튼 클릭 시 계산 시 추가
@@ -117,9 +132,9 @@ public class CalculatorEx extends JFrame implements ActionListener{
 		fullTextparsing(inputText);
 		// 텍스트 파싱 메소드 실행 시 ArrayList에 숫자, 연산기호 담겨짐
 		
-		double prev = 0; // 값갱신
+		double prev = 0; // 결과값
 		double current = 0;
-		String mode = ""; // 연산기호 처리 변수
+		String mode = ""; // 연산자 변수
 		
 		for(String s : equation) { // 변수 : 배열레퍼런스
 			if(s.equals("+")) {
@@ -140,7 +155,7 @@ public class CalculatorEx extends JFrame implements ActionListener{
 						prev *= current;
 					} else if(mode.equals("div")) {
 						prev /= current;
-					} else {
+					}  else {
 						prev = current;
 					}
 			}
